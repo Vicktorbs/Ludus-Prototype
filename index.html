@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ludus</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light mb-0">
+            <ul class="navbar-nav w-100">
+                <li class="nav-item mt-2">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" id="navbar-button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+                <li class="text-center w-100 mr-5 mt-2">
+                    <p><b>Ludus</b></p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog accordionmodal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="container mt-3">
+                    <div class="modal-header d-md-none">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-4 user-info">
+                            <div class="row">
+                                <div class="col-md-4 w-100 text-center">
+                                    <img src="./assets/img/512x512-1-300x300.png" alt="User Photo" class="user_photo m-2 w-75 mx-auto align-content-center mb-2">
+                                </div>
+                                <div class="col-md-8 user-dates">
+                                    <a href="./user/" class="btn btn-outline-primary p-2 mx-auto" id="user-ifn">
+                                        <p>Nombre</p>
+                                        <p>Apellido1</p>
+                                        <p>Apellido2</p>
+                                        <p class="user-level">Nivel: <b>2</b></p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row user-graf mb-3">
+                                <div class="col-md-4"></div>
+                                <div class="col-md">
+                                    <a href="#" class="user-grad-data"><u>Mejor materia:</u></a>
+                                    <img class="w-100" src="./assets/img/grafico.png" alt="Grafico">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="row mb-2">
+                                <div class="col-md">
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Matematicas</a>
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Español</a>
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Historia</a>
+                                </div>
+                                <div class="col-md">
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Formacion Civica y Etica</a>
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Ciencias Naturales</a>
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Educacion Artistica</a>
+                                </div>
+                                <div class="col-md">
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Geografia</a>
+                                    <a href="#" class="btn btn-outline-secondary w-100 mt-2">Ingles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="row mt-4">
+            <div class="col-md">
+                <a class="nav-link" href="./actividades/index.html">
+                    <div class="card text-white mb-3">
+                        <div class="card-body math">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Matematicas</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#">
+                    <div class="card text-white mb-3">
+                        <div class="card-body spani">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Español</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#">
+                    <div class="card text-white mb-3">
+                        <div class="card-body histo">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Historia</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#">
+                    <div class="card text-white mb-3">
+                        <div class="card-body geo">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Geografia</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#">
+                    <div class="card text-white mb-3">
+                        <div class="card-body math">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Matematicas</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#">
+                    <div class="card text-white mb-3">
+                        <div class="card-body math">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Matematicas</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#">
+                    <div class="card text-white mb-3">
+                        <div class="card-body math">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Matematicas</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#">
+                    <div class="card text-white mb-3">
+                        <div class="card-body math">
+                            <div class="row">
+                                <div class="col-3 text-center align-self-end">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                </div>
+                                <div class="col nombre-materia text-center  align-self-center">
+                                    <p class="card-title"><u>Matematicas</u></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

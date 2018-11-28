@@ -1,0 +1,18 @@
+:root {
+    --barra: #75de91;
+    --fondo: #eae8e5;
+    --blue: #25acb6;
+    --orange: #d57665;
+    --darkblue: #23586a;
+    --pink: #eb6f8d;
+    --morado: #a569bd;
+    --fuentes: #34495e;
+}
+h3.h1.mt-3{
+   color: var(--blue)
+}
+aside div.data-user{
+    background: var(--morado);
+    color: #fff;
+    font-weight: bold;
+}

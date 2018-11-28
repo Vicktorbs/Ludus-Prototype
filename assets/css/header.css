@@ -1,0 +1,64 @@
+:root {
+    --barra: #75de91;
+    --fondo: #eae8e5;
+    --blue: #25acb6;
+    --orange: #d57665;
+    --darkblue: #23586a;
+    --pink: #eb6f8d;
+    --fuentes: #34495e;
+}
+@font-face{
+    font-family: chakra;
+    src: url(../fonts/ChakraPetch-Regular.ttf);
+}
+body{
+    font-family: chakra;
+}
+p b{
+    font-size: 1.6em;
+}
+#navbar-button{
+    background: var(--barra);
+}
+header .navbar.navbar-expand-lg{
+    background: var(--barra);
+}
+.user-dates{
+    font-weight: bold;
+}
+.user-info .user-dates .user-level{
+    color: var(--blue);
+    font-size: 1.5em;
+}
+.user-graf .user-grad-data{
+    color: var(--barra);
+    font-size: 1.3em;
+}
+.user-info .user-dates .btn:hover .user-level{
+    color: var(--fondo);
+}
+#user-ifn{
+    width: 100%;
+}
+@media (max-width: 768px) { 
+    #user-ifn{
+        font-size: .5em;
+    }
+    .user-graf .user-grad-data{
+        font-size: .9em;
+    }
+}
+@media (max-width: 576px) { 
+    #user-ifn{
+        font-size: 1.5em;
+    }
+    .user-graf .user-grad-data{
+        font-size: 1.3em;
+    }
+    .fas{
+        font-size: 4.2em;
+    }
+    .card-title{
+        font-size: 1.9em;
+    }
+}

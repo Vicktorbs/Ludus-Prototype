@@ -1,0 +1,41 @@
+:root {
+    --barra: #75de91;
+    --fondo: #eae8e5;
+    --blue: #25acb6;
+    --orange: #d57665;
+    --darkblue: #23586a;
+    --pink: #eb6f8d;
+    --fuentes: #34495e;
+}
+.card{
+    height: 25vh;
+}
+.fas{
+    font-size: 5em;
+}
+.nombre-materia{
+    height: 100%;
+}
+.card-title{
+    font-size: 2.5em;
+}
+@media (max-width: 576px) { 
+    .fas{
+        font-size: 4.2em;
+    }
+    .card-title{
+        font-size: 1.9em;
+    }
+}
+.math{
+    background: var(--darkblue);
+}
+.spani{
+    background: var(--orange);
+}
+.histo{
+    background: var(--blue);
+}
+.geo{
+    background: var(--pink);
+}
