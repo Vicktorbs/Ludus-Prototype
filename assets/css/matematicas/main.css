@@ -1,0 +1,25 @@
+.fill{
+    position: relative;
+    cursor: pointer;
+}
+.empty {
+    display: inline-block;
+    height: 210px;
+    width: 210px;
+}
+.hold {
+    border: solid #ccc 4px;
+}
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+}
+.invisible {
+    display: none;
+}
+.resolver {
+    height: 35vh;
+}
+/* #answerZone {
+    height: 120px;
+} */
