@@ -27,15 +27,15 @@
         font-size: 1.9em;
     }
 }
-.math{
+.math, .ciNat{
     background: var(--darkblue);
 }
-.spani{
+.spani, .ingl{
     background: var(--orange);
 }
-.histo{
+.histo, .foCiE{
     background: var(--blue);
 }
-.geo{
+.geo, .eduArt{
     background: var(--pink);
 }
