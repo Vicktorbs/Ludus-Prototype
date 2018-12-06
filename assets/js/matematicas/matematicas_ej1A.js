@@ -10,6 +10,6 @@ function correctAsw() {
         fineAsw.classList.add("d-none");
         nextS.classList.add("d-none");
         number = 0;
-        currentNumber.innerHTML = number;
+        currentNumber.value = number;
     }
 }
